@@ -1,7 +1,8 @@
-### Installation
+### Python Installation
 - Install latest version of python from python.org
 - Install python with installer, make sure to check "Add Python x.x.x to PATH" 
 - Adding this will help you to run python from command line
+- you can check out this python path go to settings>system>About>Advance System settings>Advance Tab> environmental variables
 
 ### Check Python installation
 - Open command Prompt and type `python` to start python script
@@ -9,3 +10,13 @@
 - Now Just type `print("Hello")`
 - This will print hello world to next line
 - congratulation you just manage to run your hello world on python
+- You can use `python --version` to check out your python version without starting python Execution
+- To run specific python script you can use following command
+```
+python "c:/Users/Ryzen2600x/source/repos/Python/Sample Code/Test.py"
+```
+
+### Code Editor for python
+- you can install visual studio Code from it's website
+- Just proceed with it's installer, during selection options make sure to check all checkboxes, this is require for `Open with Code` option in windows context menu
+- After visual studio code installation you can install python extension for visual studio code, this will let us run and debug python directly from visual studio code plus provide syntax highlight and intellisense for python functions

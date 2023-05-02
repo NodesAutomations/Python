@@ -10,6 +10,8 @@
 - Now Just type `print("Hello")`
 - This will print hello world to next line
 - congratulation you just manage to run your hello world on python
+- This is also call python  REPL (Read-Eval-Print Loop), allows you to run Python code interactively
+- use can use `exit()` to come out of REPL mode
 - You can use `python --version` to check out your python version without starting python Execution
 - To run specific python script you can use following command
 ```

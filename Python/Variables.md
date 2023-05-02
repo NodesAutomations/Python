@@ -28,3 +28,17 @@ print(type(c))
 print(type(d))
 print(type(e))
 ```
+
+### Type Casting
+- Type casting is method to check for type of input
+- so in below code id you assign `a="vivek"` then it will throw run time error 
+- we can use `int()`,`str()`,`float()`,`bool()` for this
+```python
+# string
+a="100"
+print(type(a))
+
+# typecast string as integer
+b=int(a)
+print(type(b))
+```

@@ -16,7 +16,12 @@
 python "c:/Users/Ryzen2600x/source/repos/Python/Sample Code/Test.py"
 ```
 
-### Code Editor for python
+### Visual Studio Code setup for python
 - you can install visual studio Code from it's website
 - Just proceed with it's installer, during selection options make sure to check all checkboxes, this is require for `Open with Code` option in windows context menu
 - After visual studio code installation you can install python extension for visual studio code, this will let us run and debug python directly from visual studio code plus provide syntax highlight and intellisense for python functions
+
+### Visual Studio setup for python
+- From Visual studio installer make sure to check for python development 
+- Proceed with installation, it will allow you to create new python application from visual studio create new project window
+- You can choose Python Application for basic python project, this will automatically create simple python file that you can directly run inside visual studio with all functionality

@@ -1,0 +1,51 @@
+### Import Entire module
+- Importing in python is process of loading code from a python module into the current script
+- This allows you to use the functions and variables defined in the module in your current script also any additional modules that the imported module might depend upon
+- For example to import the math module
+```python
+import math
+
+result=math.sqrt(9)
+print(result) # output : 3.0
+```
+
+### Import specific function
+```python
+form math import sqrt
+
+result=math.sqrt(9)
+print(result) # output : 3.0
+```
+for multiple functions use comma 
+```python
+form math import sqrt,pi
+```
+
+### import using as keywork
+```python
+import math as m
+
+result=m.sqrt(9)
+print(result) # output : 3.0
+```
+
+### Use Modules or class from multiple file
+person.py
+```python
+class Person:
+    Name=""
+    Age=""
+
+    def PrintData(self):
+        print(f"Name:{self.Name}")
+        print(f"Age:{self.Age}")
+```
+mainfile
+```python
+from Person import Person
+
+p= Person()
+p.Name="Vivek"
+p.Age=31
+p.PrintData();
+```

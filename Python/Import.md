@@ -49,3 +49,17 @@ p.Name="Vivek"
 p.Age=31
 p.PrintData();
 ```
+### Import Modules from sub folder
+sub folder file : Util/Calculator.py
+```python
+class Calculator:
+    def sum(number1,number2):
+        return number1+number2
+```
+main file
+```python
+from Util.Calculator import Calculator
+a=10
+b=20
+print(Calculator.sum(a,b))
+```

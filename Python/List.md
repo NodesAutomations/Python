@@ -10,11 +10,31 @@ a[0]="Vivek"
 # print first item
 print(a[0])
 ```
-
+list to store unlimited inputs from user
+```python
+names=[]
+while True:
+    print("Enter New Name")
+    name=input()
+    if name=="":
+        break
+    names=names + [name]
+print("Names Are:")
+for name in names:
+    print(name)
+```
 ### Using List of multiple types
 ```python
 a=["way of kings",1,bool]
 print(a)
+```
+
+### List with multiple Index
+```python
+#multy Index List
+names=[["Kaledin","Dalenar"],["Navani","Yashnah"]]
+print(names[0])
+print(names[0][1])
 ```
 
 ### Using Slicing with List 

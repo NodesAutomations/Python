@@ -29,6 +29,49 @@ print(type(d))
 print(type(e))
 ```
 
+### Immutable Data Type
+
+- Immutable Object can’t change it’s state
+- types
+    - int
+    - float
+    - complex
+    - string
+    - tuple set
+
+### Tuple
+
+```python
+a=(10,"Hello",4.4)
+print(a[0])
+print(a[1])
+print(a[2])
+```
+
+### Mutable Data Type
+
+- Mutable Object Can Change its state
+- Types
+    - List
+    - Dictionary
+    - byte array
+
+### List
+
+```python
+a=[10,"Hello",4.4]
+print(a[0])
+print(a[1])
+print(a[2])
+```
+
+```python
+10
+Hello
+4.4
+```
+
+
 ### Type Casting
 - Type casting is method to check for type of input
 - so in below code id you assign `a="vivek"` then it will throw run time error 
@@ -42,3 +85,4 @@ print(type(a))
 b=int(a)
 print(type(b))
 ```
+

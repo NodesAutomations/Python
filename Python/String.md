@@ -50,3 +50,18 @@ print ("String Capitalize : " + c.capitalize())
 print("String Find index : " + str(c.find("P")))
 print("String Replace : " + c.replace("Vivek", "Bunty"))
 ```
+
+### String formatting
+
+```python
+a="Hello"
+b="Nodes Automations"
+print("{0},{1}".format(a,b))
+print("{},{}".format(a,b))
+print(f"{a},{b}")
+```
+
+```python
+Hello,Nodes Automations
+Hello,Nodes Automations
+```

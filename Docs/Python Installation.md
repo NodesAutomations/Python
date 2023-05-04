@@ -17,6 +17,8 @@
 ```
 python "c:/Users/Ryzen2600x/source/repos/Python/Sample Code/Test.py"
 ```
+- You can also run python interactively using IDLE, just search for IDLE after installation, you can create new script from IDLE and Run that script by pressing `F5`
+
 
 ### Visual Studio Code setup for python
 - you can install visual studio Code from it's website

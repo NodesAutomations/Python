@@ -45,3 +45,25 @@ range=ws.iter_rows(min_row=1,max_row=5,min_col=1,max_col=2)
 for cell1,cell2 in range:
     print(cell1.value,cell2.value)
 ```
+### Read Name Range
+```python
+import openpyxl
+
+# Get workbook
+wb=openpyxl.load_workbook("Sample.xlsx")
+ws=wb.active
+
+# Getting Category Range
+nameRange=wb.defined_names['Category']
+Sheet=list(nameRange.destinations)[0][0]
+address=list(nameRange.destinations)[0][1].replace('$','')
+
+print(Sheet,":", ws[address].value)
+
+# Getting Author Range
+nameRange=wb.defined_names['Author']
+Sheet=list(nameRange.destinations)[0][0]
+address=list(nameRange.destinations)[0][1].replace('$','')
+
+print(Sheet,":", ws[address].value)
+```

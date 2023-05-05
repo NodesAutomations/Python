@@ -11,3 +11,7 @@ wb.create_sheet("Test")
 # Save workbook, you can overwrite existing file if you want to
 wb.save("New File.xlsx")
 ```
+```python
+# Write new sheet with Specific Position, 0=first sheet
+wb.create_sheet("Test",0)
+```

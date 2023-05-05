@@ -14,6 +14,17 @@ for i in range(2,10):
 
 wb.save("Sample.xlsx")
 ```
+### number type
+```python
+import openpyxl
+from openpyxl.styles import numbers
+
+wb=openpyxl.load_workbook("Sample.xlsx")
+ws=wb["Sheet1"]
+
+# pattern
+ws.cell(2,1).number_format=numbers.FORMAT_CURRENCY_USD
+```
 ### Background color
 ```python
 import openpyxl

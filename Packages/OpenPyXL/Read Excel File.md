@@ -67,3 +67,23 @@ address=list(nameRange.destinations)[0][1].replace('$','')
 
 print(Sheet,":", ws[address].value)
 ```
+
+### Read table
+```python
+import openpyxl
+from openpyxl import Workbook
+from openpyxl.worksheet.table import Table, TableStyleInfo
+
+# Get workbook
+wb=openpyxl.load_workbook("Sample.xlsx")
+ws=wb.active
+
+# Get the table object by name
+table_range = ws.tables["BookTable"]
+data = ws[table_range.ref]
+
+for row in data:
+    for cell in row:
+        print(cell.value, end=" ")
+    print()
+```

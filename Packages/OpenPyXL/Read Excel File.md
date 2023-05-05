@@ -39,4 +39,9 @@ ws=wb["Sheet1"]
 range=ws["A1:B5"]
 for cell1,cell2 in range:
     print(cell1.value,cell2.value)
+    
+# Print data with row and column number
+range=ws.iter_rows(min_row=1,max_row=5,min_col=1,max_col=2)
+for cell1,cell2 in range:
+    print(cell1.value,cell2.value)
 ```

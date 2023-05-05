@@ -14,3 +14,17 @@ for i in range(2,10):
 
 wb.save("Sample.xlsx")
 ```
+### Background color
+```python
+import openpyxl
+from openpyxl.styles import PatternFill
+
+wb=openpyxl.load_workbook("Sample.xlsx")
+ws=wb["Sheet1"]
+
+# pattern
+pattern=PatternFill(patternType="solid",fgColor="c64747")
+
+ws.cell(1,2).fill=pattern
+wb.save("Sample.xlsx")
+```

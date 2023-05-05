@@ -25,4 +25,18 @@ print(ws)
 print(ws["A1"].value)
 print(ws["B1"].value)
 ```
+### Read specific Range
+```python
+import openpyxl
 
+# Get workbook
+wb=openpyxl.load_workbook("Sample.xlsx")
+
+# Get worksheet
+ws=wb["Sheet1"]
+
+# Print Data
+range=ws["A1:B5"]
+for cell1,cell2 in range:
+    print(cell1.value,cell2.value)
+```

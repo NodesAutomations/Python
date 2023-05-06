@@ -35,10 +35,19 @@ sheet = wb.sheets["Inputs"]
 print(sheet["Category"].value)
 print(sheet["Author"].value)
 
-# Get Table
+# Get Range using name
 rng=sheet["BookTable"]
 
 for i in range(0,rng.rows.count):
     for j in range(0,rng.columns.count):
          print(rng[i,j].value)
+
+# Get Excel Table
+table=sheet.tables["BookTable"]
+
+# Print Table adddress
+print(table.name)
+print(table.range.address)
+print(table.header_row_range.address)
+print(table.data_body_range.address)
 ```

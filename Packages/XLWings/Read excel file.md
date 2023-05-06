@@ -39,4 +39,4 @@ rng=sheet["BookTable"]
 for i in range(1,rng.rows.count+1):
     for j in range(1,rng.columns.count+1):
          print(rng[(i-1)*rng.columns.count+j-1].value)
-###
+```

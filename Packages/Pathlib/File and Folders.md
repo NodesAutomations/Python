@@ -48,4 +48,22 @@ result=folderPath.is_dir()
 
 # Check if path is file
 result=filePath.is_file()
+
 ```
+### File name manipulation
+```python
+from pathlib import Path
+
+# Get Current Python file path
+filePath=Path(__file__)
+print(filePath)
+
+#Get file Name
+fileName=filePath.name
+print(fileName)
+
+# Get file Name without extension
+fileName=filePath.stem
+print(fileName)
+```
+### 

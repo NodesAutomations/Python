@@ -12,13 +12,13 @@ macroWithInput("InputPara")
 ```
 
 ### To Run python script from excel
-```python
+```vba
 Sub RunPythonScript(PythonScriptPath As String)
 
-Dim objShell As Object
-Dim PythonExePath As String
-ActiveWorkbook.Save
-ChDir ActiveWorkbook.path
+    Dim objShell As Object
+    Dim PythonExePath As String
+    ActiveWorkbook.Save
+    ChDir ActiveWorkbook.path
 
     Set objShell = VBA.CreateObject("Wscript.Shell")
     

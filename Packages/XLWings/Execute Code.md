@@ -27,3 +27,10 @@ Sub RunPythonScript(PythonScriptPath As String)
     objShell.Run PythonExePath & PythonScriptPath
 End Sub
 ```
+```vba
+Sub Click_GenerateModesButton(control As IRibbonControl)
+    Dim scriptPath As String
+    scriptPath = ThisWorkbook.path & "\Python\StartUp.py"
+    Call Functions.RunPythonScript(scriptPath)
+End Sub
+```

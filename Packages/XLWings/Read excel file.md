@@ -51,3 +51,11 @@ print(table.range.address)
 print(table.header_row_range.address)
 print(table.data_body_range.address)
 ```
+### Save and Close Workbook
+```python
+wb.save()
+if len(wb.app.books)==1:
+    wb.app.quit()
+else:
+    wb.close()
+```

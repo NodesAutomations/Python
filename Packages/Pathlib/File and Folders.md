@@ -66,4 +66,24 @@ print(fileName)
 fileName=filePath.stem
 print(fileName)
 ```
-### 
+### Loop through files and folder
+```python
+from pathlib import Path
+
+# Get Current working folder path
+folderPath=Path.cwd()
+print(folderPath)
+
+# Iterate over files in directory
+for file in folderPath.iterdir():
+    print(file)
+
+# Iterate over files with specific extension
+for file in folderPath.iterdir():
+    if file.suffix==".md":
+        print(file)
+
+# Iterate over files including files in subfolder
+for file in folderPath.rglob("*"):
+    print(file)
+```

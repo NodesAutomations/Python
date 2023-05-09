@@ -4,6 +4,7 @@
 - you can use `pyinstaller "script.py --onefile"` to create single file executable
 - Refer : https://www.youtube.com/watch?v=wp2pNVUl3lc 
 - Refer : https://pyinstaller.org/en/stable/index.html
+- Refer : https://www.youtube.com/watch?v=iIATJtruZBE
 
 ### Crete Excecutable using psgCompiler
 - psg compiler let you compile your python script so user can use it without python installation

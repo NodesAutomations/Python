@@ -15,6 +15,7 @@ doc.render(context)
 doc.save("Report.docx")
 ```
 ### Code to insert images at placeholder
+- contents in word file
 ```
 Hello, my name is {{ name }}.
 {{ placeholder_1}}

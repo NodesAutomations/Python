@@ -15,6 +15,11 @@ doc.render(context)
 doc.save("Report.docx")
 ```
 ### Code to insert images at placeholder
+```
+Hello, my name is {{ name }}.
+{{ placeholder_1}}
+{{ placeholder_2}}
+```
 ```python
 import os,sys # standard python lib
 from docxtpl import DocxTemplate, InlineImage # pip install docxtpl

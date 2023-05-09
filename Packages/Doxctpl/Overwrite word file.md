@@ -41,6 +41,9 @@ context={"name":"Vivek",
          "placeholder_2":placeholder2,
          }
 
+# to replace place holder image use following code
+# doc.replace_pic("originalfile1.png","newfile.png")
+
 doc.render(context)
 doc.save("Report.docx")
 ```

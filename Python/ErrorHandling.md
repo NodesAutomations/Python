@@ -1,10 +1,14 @@
 ### Simple Error handling
+- finally is optional
+- finally block is always executed
 ```python
 user_input=input("Enter a number :")
 try:
     user_input=int(user_input)
 except :
     print("Invalid input")
+finally:
+    print("end of program")
 ```
 
 ### Error Handling with specific exception

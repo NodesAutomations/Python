@@ -134,3 +134,34 @@ p= Employee("Vivek",31)
 p.PrintData()
 
 ```
+### Create list using custom class
+```python
+class Point:
+    # constructor
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    # method to calculate distance from origin
+    def distance_from_origin(self):
+        return (self.x ** 2 + self.y ** 2) ** 0.5
+
+    # method to calculate distance from another point
+    def distance_from_point(self, other):
+        return ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
+
+    # method to print the point coordinates
+    def __str__(self):
+        return f"({self.x}, {self.y})"
+
+
+# creating list of point
+points = []
+
+for i in range(1, 11):
+    point = Point(i, 2*i)
+    points.append(point)
+
+for point in points:
+    print(point)
+```

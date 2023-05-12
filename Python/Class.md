@@ -31,6 +31,7 @@ p.SayHello()
 ```
 
 ### Class with constructor
+- Python can have only one constructor, so if you create multiple method with `__init__` python will only use last one
 ```python
 class Person:
     Name=""

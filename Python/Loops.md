@@ -19,7 +19,9 @@ for i in range(2,11,2):
     print(i)
 ```
 ### For loop with else
-- else statement executed after all iterations are completed
+- else statement executed after all iterations are completed successfully
+- if for loop is interupted with break then else won't get executed
+- same concept with while loop
 ```python
 for i in range(11):
     print(i)
@@ -33,4 +35,13 @@ i=0
 while i<10:
     print(i)
     i=i+1
+```
+### while loop with else
+```python
+i=0
+while i<10:
+    print(i)
+    i=i+1
+else:
+    print("Loop ended")
 ```

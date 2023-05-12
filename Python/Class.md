@@ -24,7 +24,25 @@ p.Age=31;
 
 p.PrintData()
 ```
+### Class with static method
+```python
+class Person:
+    Name=""
+    Age=""
 
+    def __init__(self,name,age):
+        print("New person class created")
+        self.Name=name
+        self.Age=age
+    
+    @staticmethod
+    def SayHello():
+        print("Hello Sir")
+
+
+p= Person("Vivek",31)
+Person.SayHello()
+```
 ### Class with constructor
 - Python can have only one constructor, so if you create multiple method with `__init__` python will only use last one
 ```python

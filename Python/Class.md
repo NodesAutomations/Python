@@ -88,18 +88,19 @@ class Person:
         person.Age = age
         return person
 
-    def printDetails(self):
-        print(f"Hey my name is {self.Name}. I am {self.Age} year old")
+    def __str__(self):
+        return f"Hey my name is {self.Name}. I am {self.Age} year old"
 
 
 p = Person()
-p.printDetails()
+print(p)
 
 p = Person.from_name("Vivek")
-p.printDetails()
+print(p)
 
 p = Person.from_name_age("Vivek", 31)
-p.printDetails()
+print(p)
+
 ```
 ### Class with inheritance
 ```python

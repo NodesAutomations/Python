@@ -18,7 +18,15 @@ for i in range(1,11):
 for i in range(2,11,2):
     print(i)
 ```
+### For loop with else
+- else statement executed after all iterations are completed
+```python
+for i in range(11):
+    print(i)
 
+else:
+    print("Sorry no i")
+```
 ### while Loop
 ```python
 i=0

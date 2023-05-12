@@ -18,16 +18,11 @@ class Person:
         print(f"Name:{self.Name}")
         print(f"Age:{self.Age}")
     
-    @staticmethod
-    def SayHello():
-        print("Hello")
-
 p= Person()
 p.Name="Vivek"
 p.Age=31;
 
 p.PrintData()
-p.SayHello()
 ```
 
 ### Class with constructor

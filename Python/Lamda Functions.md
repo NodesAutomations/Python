@@ -17,13 +17,10 @@ print(avg(1,2,3)) # print 2
 ```
 ### function as input paramter
 ```python
-def Test(fx,value):
-  return 5+fx(value)
+def Test(fx, value):
+    return 5+fx(value)
 
-square=lambda x:x*x
-cube=lambda x:x*x*x
-
-print(Test(square,5)) # prints 30
-print(Test(cube,5)) # prints 130
+print(Test(lambda x: x*x, 5))  # prints 30
+print(Test(lambda x: x*x*x, 5))  # prints 130
 ```
 

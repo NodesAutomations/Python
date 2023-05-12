@@ -32,9 +32,6 @@ class Person:
     Name=""
     Age=""
 
-    def __init__(self):
-        print("New person class created")
-        
     def __init__(self,name,age):
         print("New person class created")
         self.Name=name

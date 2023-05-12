@@ -63,6 +63,44 @@ class Person:
 p= Person("Vivek",31)
 p.PrintData()
 ```
+- To use multiple instructor use classmethod decorator
+```python
+class Person:
+    Name: (str)
+    Age: (int)
+
+    def __init__(self):
+        self.Name = "Vivek"
+        self.Age = 31
+        print("New person class created")
+
+    @classmethod
+    def from_name(cls, name):
+        person = cls()
+        person.Name = name
+        person.Age = 31
+        return person
+
+    @classmethod
+    def from_name_age(cls, name, age):
+        person = cls()
+        person.Name = name
+        person.Age = age
+        return person
+
+    def printDetails(self):
+        print(f"Hey my name is {self.Name}. I am {self.Age} year old")
+
+
+p = Person()
+p.printDetails()
+
+p = Person.from_name("Vivek")
+p.printDetails()
+
+p = Person.from_name_age("Vivek", 31)
+p.printDetails()
+```
 ### Class with inheritance
 ```python
 class Person:

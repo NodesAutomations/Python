@@ -14,9 +14,12 @@ print(a)
 ```
 ### Dictionary Method
 ```python
-a={"1":"Way of Kings","2":"Words of Radiance","3":"Oathbringer","4":"Rhythm of War"}
+a = {"1": "Way of Kings", "2": "Words of Radiance",
+     "3": "Oathbringer", "4": "Rhythm of War"}
 # Print all keys of dictionary
-print(a.values())
+print(a.keys())
 # print all values of dictionary
+print(a.values())
+# print all items
 print(a.items())
 ```

@@ -36,7 +36,22 @@ names=[["Kaledin","Dalenar"],["Navani","Yashnah"]]
 print(names[0])
 print(names[0][1])
 ```
+```python
+data = [
+    [0, 12, 6],
+    [57, 69, 68],
+    [19, 21, -1],
+    [1, 18, 19],
+    [16, 9, 10],
+    [-1, -1, -1]
+]
 
+for i in range(len(data)):
+    for j in range(len(data[0])):
+        print(data[i][j])
+
+print()
+```
 ### Using Slicing with List 
 ```python
 a=["way of kings","words or radiant","Oathbringer","Rhythm of War"]

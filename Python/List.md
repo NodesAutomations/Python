@@ -52,6 +52,48 @@ for i in range(len(data)):
 
 print()
 ```
+### using  list as 2D array for custom class
+```python
+from node import Node
+
+n1 = Node(1, 0, 0, 0)
+n2 = Node(2, 10, 0, 0)
+n3 = Node(3, 20, 0, 0)
+
+n4 = Node(4, 0, 10, 0)
+n5 = Node(5, 10, 10, 0)
+n6 = Node(6, 20, 10, 0)
+
+n7 = Node(7, 0, 20, 0)
+n8 = Node(8, 10, 20, 0)
+n9 = Node(9, 20, 20, 0)
+
+nodesRow1 = []
+nodesRow1.append(n1)
+nodesRow1.append(n2)
+nodesRow1.append(n3)
+
+nodesRow2 = []
+nodesRow2.append(n4)
+nodesRow2.append(n5)
+nodesRow2.append(n6)
+
+nodesRow3 = []
+nodesRow3.append(n7)
+nodesRow3.append(n8)
+nodesRow3.append(n9)
+
+nodes = []
+nodes.append(nodesRow1)
+nodes.append(nodesRow2)
+nodes.append(nodesRow3)
+
+for i, rowNodes in enumerate(nodes):
+    for j, node in enumerate(rowNodes):
+        print(i, j, node)
+
+print("")
+```
 ### Using Slicing with List 
 ```python
 a=["way of kings","words or radiant","Oathbringer","Rhythm of War"]

@@ -29,3 +29,10 @@ def add_num(num1: int, num2: int) -> int:
     return num1+num2
 sum = add_num(1, 2)
 ```
+```python
+from typing import Sequence
+
+def printAll(data: Sequence[str]):
+    for line in data:
+        print(line)
+```

@@ -15,6 +15,8 @@ tuple
 ```python
 def printTuple(t: tuple[int, str]):
     print(t)
+    print(t[0], t[1])
+
 printTuple((1, "Test"))
 ```
 list

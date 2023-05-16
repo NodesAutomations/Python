@@ -11,6 +11,12 @@ value3: bool
 value4: str
 value5: Any # means it can be any type
 ```
+tuple
+```python
+def printTuple(t: tuple[int, str]):
+    print(t)
+printTuple((1, "Test"))
+```
 list
 ```python
 data1:list[int]

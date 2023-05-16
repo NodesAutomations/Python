@@ -9,6 +9,7 @@ value1: int
 value2: float
 value3: bool
 value4: str
+value5: Any # means it can be any type
 ```
 list
 ```python

@@ -25,7 +25,7 @@ python "c:/Users/Ryzen2600x/source/repos/Python/Sample Code/Test.py"
 - Just proceed with it's installer, during selection options make sure to check all checkboxes, this is require for `Open with Code` option in windows context menu
 - After visual studio code installation you can install python extension for visual studio code, this will let us run and debug python directly from visual studio code plus provide syntax highlight and intellisense for python functions
 - Also Install mypy for type annotation check Refer : https://github.com/NodesAutomations/Python/blob/master/Docs/Static%20Type%20checking%20with%20Mypy.md
-- To setup startup script in visual studio code edit `launch.json` file in `.vscode` folder, set variable  `"program": "Python\\StartUp.py"` 
+- To setup startup script in visual studio code edit `launch.json` file in `.vscode` folder, set variable  `"program": "Python\\StartUp.py"` Refer : https://stackoverflow.com/questions/49113247/python-and-visual-studio-code-how-do-i-run-a-specific-file-in-the-editor
 
 ### Visual Studio setup for python
 - From Visual studio installer make sure to check for python development 

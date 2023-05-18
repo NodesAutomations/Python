@@ -47,7 +47,15 @@ print(sum(1, 2, 3, 4))
 10
 ```
 - when we add `**` parameter before our inputvariable then python consider that input as dictionary
-- currently i really don't know use case for this 
+```python
+def printdetails(name, **data):
+    print(name)
+    for key, value in data.items():
+        print(f"Key: {key},Value: {value}")
+
+printdetails("vivek", age=31, city="surat")
+printdetails("vivek", age=31, city="surat", gender="Male", height=167)
+```
 
 ### Function with recursion
 ```python

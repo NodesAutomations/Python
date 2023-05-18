@@ -16,3 +16,6 @@ numbers = [1, 2, 3, 4]
 filteredList = list(filter(IsEven, numbers))
 print(filteredList)
 ```
+### Reduce
+```python
+```

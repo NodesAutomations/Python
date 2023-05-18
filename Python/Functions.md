@@ -46,6 +46,9 @@ print(sum(1, 2, 3, 4))
 3
 10
 ```
+- when we add `**` parameter before our inputvariable then python consider that input as dictionary
+- currently i really don't know use case for this 
+
 ### Function with recursion
 ```python
 def factor(number):

@@ -30,7 +30,22 @@ def factor(number=2):
 
 print(factor())
 ```
+### function with variable inputs
+- when we add `*` parameter before our inputvariable then python consider that input as tuple
+```python
+def sum(*numbers):
+    total = 0
+    for num in numbers:
+        total = total+num
+    return total
 
+print(sum(1, 2))
+print(sum(1, 2, 3, 4))
+```
+```
+3
+10
+```
 ### Function with recursion
 ```python
 def factor(number):

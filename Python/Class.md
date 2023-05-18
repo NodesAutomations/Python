@@ -102,6 +102,27 @@ p = Person.from_name_age("Vivek", 31)
 print(p)
 
 ```
+### Class with getter and setter
+```python
+class MyClass:
+    def __init__(self, value):
+        self._value = value
+
+    @property  # Getter
+    def value(self):
+        return self._value*10
+
+    @value.setter # Setter
+    def value(self, new_value):
+        self._value = new_value/10
+
+
+c = MyClass(10)
+print(c.value)
+c.value = 1000
+print(c._value)
+print(c.value)
+```
 ### Class with inheritance
 ```python
 class Person:

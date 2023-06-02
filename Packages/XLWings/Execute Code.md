@@ -12,6 +12,34 @@ macroWithInput("InputPara")
 ```
 
 ### To Run python script from excel
+```vba 
+Sub CalculateArea()
+    Dim objShell As Object
+    Set objShell = VBA.CreateObject("Wscript.Shell")
+        
+    Dim PythonExePath As String
+    PythonExePath = """PythonExePath"""
+
+    Dim PythonScriptPath As String
+    PythonScriptPath = """ScriptPath"""
+     
+    objShell.Run PythonExePath & " " & PythonScriptPath, 0
+End Sub
+```
+```vba
+Sub CalculateArea()
+    Dim objShell As Object
+    Set objShell = VBA.CreateObject("Wscript.Shell")
+        
+    Dim PythonExePath As String
+    PythonExePath = """C:\Users\Ryzen2600x\AppData\Local\Programs\Python\Python311\python.exe"""
+
+    Dim PythonScriptPath As String
+    PythonScriptPath = """" & ThisWorkbook.Path & "\Sample.py"""
+     
+    objShell.Run PythonExePath & " " & PythonScriptPath, 0
+End Sub
+```
 ```vba
 Sub RunPythonScript(PythonScriptPath As String)
 

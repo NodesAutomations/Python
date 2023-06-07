@@ -1,3 +1,7 @@
+### Overview
+- all data on pandas are basically of two types
+- dataframe (2d data/table), series (1d data/list)
+
 ### Read data from csv file
 ```python
 import pandas

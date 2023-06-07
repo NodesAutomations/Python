@@ -7,11 +7,19 @@
 import pandas
 
 # load data from csv file to data frame
+df: pandas.DataFrame
 df = pandas.read_csv("weather_data.csv")
 
 # print entire table
 print(df)
 
 # print only temp column
-print(df["temp"])
+temperatureSeries: pandas.Series
+temperatureSeries = df["temp"]
+
+# use of data frame with functions
+print("Temperature Summary")
+print(f"Min Temp:{temperatureSeries.min()}")
+print(f"Max Temp:{temperatureSeries.max()}")
+print(f"Mean Temp:{temperatureSeries.mean()}")
 ```

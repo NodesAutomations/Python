@@ -1,10 +1,31 @@
-### Simple Message box
+### Simple Message box to show info, warning, error
 ```python
 from tkinter import messagebox
 
 messagebox.showinfo(title="Info", message="Hey this is info message")
 messagebox.showwarning(title="Warning", message="Hey this is warning message")
 messagebox.showerror(title="Error", message="Hey this is error message")
+```
+### Simple Message box to get feedback from user
+```python
+import tkinter as tk
+from tkinter import messagebox
+
+# this will retun yes/no as string
+result = messagebox.askquestion("askquestion", "Are you sure?")
+print(result)
+
+# this will retun True/Falue as bool
+result = messagebox.askokcancel("askokcancel", "Want to continue?")
+print(result)
+
+# this will retun True/Falue as bool
+result = messagebox.askyesno("askyesno", "Find the value?")
+print(result)
+
+# this will retun True/Falue as bool
+result = messagebox.askretrycancel("askretrycancel", "Try again?")
+print(result)
 ```
 
 ### Simple Window with message

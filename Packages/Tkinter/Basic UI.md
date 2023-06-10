@@ -1,3 +1,12 @@
+### Simple Message box
+```python
+from tkinter import messagebox
+
+messagebox.showinfo(title="Info", message="Hey this is info message")
+messagebox.showwarning(title="Warning", message="Hey this is warning message")
+messagebox.showerror(title="Error", message="Hey this is error message")
+```
+
 ### Simple Window with message
 ```python
 import tkinter

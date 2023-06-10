@@ -19,3 +19,35 @@ label.pack(anchor="nw")
 # this is require to keep window running
 window.mainloop()
 ```
+### UI with button
+```python
+import tkinter as tk
+
+
+def SayHello():
+    print("Hellow")
+
+
+# Create new window
+# nothing will happen when you run this code
+# we need somethign to keep our window running
+window = tk.Tk()
+
+# Code for GUI
+window.title("Results")
+window.minsize(width=500, height=70)
+
+label = tk.Label(text="Hey, you've successfully completed this test")
+label.pack(side="left")
+label.pack(anchor="nw")
+label.pack(padx=10, pady=10)
+
+ok_button = tk.Button(window, text="OK", command=SayHello)
+ok_button.pack(side="bottom")
+ok_button.pack(anchor="se")
+ok_button.pack(padx=10, pady=10)
+
+
+# this is require to keep window running
+window.mainloop()
+```

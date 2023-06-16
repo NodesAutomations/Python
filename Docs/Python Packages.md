@@ -10,6 +10,8 @@
 
 ### Install new Python package
 - use `pip install pybrot` to install new packages, you need name of package to use this command
+- Local python package Directory : `C:\Users\Ryzen2600x\AppData\Local\Programs\Python\Python311\Lib\site-packages`
+- when you use any python package, you can double click on any class to explore it's code, you'll also able to see it's file location on vscode
 
 ### Uninstall python package
 - use `pip uninstall pybrot` to remove any package you don't like

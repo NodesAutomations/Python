@@ -63,3 +63,17 @@ a=10
 b=20
 print(Calculator.sum(a,b))
 ```
+### Use Specific version of package
+ref : [Force python to use older version of package](https://stackoverflow.com/questions/6445167/force-python-to-use-an-older-version-of-module-than-what-i-have-installed-now)
+```python
+import pkg_resources
+pkg_resources.require("Twisted==8.2.0")
+import twisted
+```
+or
+```python
+__requires__= 'twisted==8.2.0'
+import pkg_resources
+pkg_resources.require("twisted==8.2.0")
+import twisted  
+```

@@ -1,6 +1,7 @@
-# Python
+### Python
 Code Repo for All python Stuff
 
-### Refereces
-- https://docs.python-guide.org/
-- https://docs.python.org/3/
+### Tips
+- Use UV to manage python environment
+- Use python Interactive for debugging, `Shift`+`Enter`
+- Use Ruff for formatting

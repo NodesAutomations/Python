@@ -1,3 +1,8 @@
+---
+title: Pathlib
+parent: Packages
+---
+
 ### Get File / Folder Path
 ```python
 from pathlib import Path

@@ -1,3 +1,8 @@
+---
+title: PyQT
+parent: Packages
+---
+
 ### Overview
 - use `pip install pyqt5` installation
 - it's library to create GUI

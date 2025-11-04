@@ -1,3 +1,6 @@
+---
+title: Data Validation
+---
 ### Simple Data Validation with casting and error handling
 ```python
 user_input=input("Enter a number :")

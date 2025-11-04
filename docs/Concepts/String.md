@@ -1,3 +1,6 @@
+---
+title: String
+---
 ### Three ways to define strings
 - single quoted strings 
 ```

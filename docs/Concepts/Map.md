@@ -1,3 +1,7 @@
+---
+title: Map
+---
+
 ### Map
 ```python
 def cube(x):
@@ -8,6 +12,7 @@ cubeList = list(map(cube, numbers))
 print(cubeList)
 ```
 ### Filter
+
 ```python
 def IsEven(x):
     return (x % 2) == 0

@@ -1,3 +1,6 @@
+---
+title: List
+---
 ### Simple List
 ```python
 a=["way of kings","words or radiant","Oathbringer","Rhythm of War"]

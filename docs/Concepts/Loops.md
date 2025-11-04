@@ -1,9 +1,14 @@
+---
+title: Loops
+---
+
 ### For Loop
 ```python
 numbers=[1,2,3]
 for number in numbers:
     print(number)
 ```
+
 ### for loop using Range
 ```python
 # Print number 0-9

@@ -1,8 +1,12 @@
+---
+title: Type Hinting
+---
 ### Reference
 - https://www.youtube.com/watch?v=QORvB-_mbZ0
 - https://www.youtube.com/watch?v=9gNnhNxra3E
 
 ### Type Hinting for any variable declaration
+
 basic variables
 ```python
 value1: int

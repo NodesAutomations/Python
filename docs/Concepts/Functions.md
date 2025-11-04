@@ -1,3 +1,7 @@
+---
+title: Functions
+---
+
 ### Function without return
 ```python
 def PrintNumber(i):
@@ -8,6 +12,7 @@ for i in range(1,11):
     PrintNumber(i)
 ```
 ### function with return
+
 ```python
 def factor(number):
     value=1

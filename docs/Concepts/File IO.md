@@ -1,3 +1,7 @@
+---
+title: File IO
+---
+
 ### Read Text file
 ```python
 file=open("input.txt","r")
@@ -9,6 +13,7 @@ lines=file.readlines()
 print(lines[0])
 file.Close()
 ```
+
 ### Read Text file line by line
 ```python
 file=open("input.txt")

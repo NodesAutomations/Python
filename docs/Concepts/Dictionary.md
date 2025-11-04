@@ -1,3 +1,7 @@
+---
+title: Dictionary
+---
+
 ### Basic 
 ```python
 # Create Dictionary
@@ -12,6 +16,7 @@ items={"5":"New Book","6":"book6"}
 a.update(items)
 print(a)
 ```
+
 ### Code to loop through dictionary
 ```python
 books = {"1": "Way of Kings", "2": "Words of Radiance",

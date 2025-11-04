@@ -1,3 +1,6 @@
+---
+title: Variables
+---
 ### Basic Variable types syntax
 - python automatically detect our variable type depending on value assigned
 - Also variable names are case sensitive so `a` and `A` is considered as two separate variables

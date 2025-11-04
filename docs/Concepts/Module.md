@@ -1,3 +1,6 @@
+---
+title: Module
+---
 ### Check for main module
 ```python
 class MyClass:

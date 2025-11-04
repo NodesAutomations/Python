@@ -1,3 +1,6 @@
+---
+title: Error Handling
+---
 ### Simple Error handling
 - finally is optional
 - finally block is always executed

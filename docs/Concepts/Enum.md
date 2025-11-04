@@ -1,3 +1,7 @@
+---
+title: Enum
+---
+from enum import Enum
 ### Sample code
 ```python
 from enum import Enum

@@ -1,3 +1,7 @@
+---
+title: Lamda Functions
+---
+
 ### Overview
 - Lamda function is a small anonymous functions without name
 
@@ -9,6 +13,7 @@ cube=lambda x:x*x*x
 print(square(5)) # Prints 25
 print(cube(5)) # Prints 125
 ```
+
 ### function with multiple variables
 ```python
 avg=lambda x,y,z:(x+y+z)/3

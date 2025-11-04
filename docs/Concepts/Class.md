@@ -1,3 +1,6 @@
+---
+title: Class
+---
 ### Basic
 ```python
 class Math:

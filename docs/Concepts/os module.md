@@ -1,8 +1,13 @@
+---
+title: OS module
+---
+
 ### Get Current working directory
 ```python
 import os
  print(os.getcwd())
 ```
+
 ### Get File name , folder name
 ```python
 path='C:\\Users\\Ryzen2600x\\source\\repos\\Python'

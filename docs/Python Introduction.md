@@ -3,7 +3,7 @@ title: Introduction
 nav_order: 2
 ---
 
-# Intro
+# Introduction
 
 - python is interpreter language which is different from c# complier language
 - in compiler language you can’t run program until you solve all errors

@@ -1,6 +1,5 @@
 ---
 title: Create Package
-nav_order: 7
 ---
 
 # Steps to create local python package

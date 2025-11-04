@@ -1,5 +1,6 @@
 ---
-title: Error Handling
+title: ErrorHandling
+parent: Code
 ---
 ### Simple Error handling
 - finally is optional

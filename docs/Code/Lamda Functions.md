@@ -1,5 +1,6 @@
 ---
 title: Lamda Functions
+parent: Code
 ---
 
 ### Overview

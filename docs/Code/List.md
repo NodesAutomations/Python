@@ -1,5 +1,6 @@
 ---
 title: List
+parent: Code
 ---
 ### Simple List
 ```python

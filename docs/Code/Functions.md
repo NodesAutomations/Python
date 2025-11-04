@@ -1,5 +1,6 @@
 ---
 title: Functions
+parent: Code
 ---
 
 ### Function without return

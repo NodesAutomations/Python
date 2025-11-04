@@ -1,5 +1,6 @@
 ---
 title: Decorator
+parent: Code
 ---
 ## Function Decorator
 - it's method to modify behavior of existing functions

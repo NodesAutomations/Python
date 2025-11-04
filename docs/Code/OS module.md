@@ -1,5 +1,6 @@
 ---
-title: OS module
+title: os module
+parent: Code
 ---
 
 ### Get Current working directory

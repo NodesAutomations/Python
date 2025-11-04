@@ -1,5 +1,6 @@
 ---
 title: CSV file
+parent: Code
 ---
 ### Read CSV file
 ```python

@@ -1,5 +1,6 @@
 ---
 title: Class
+parent: Code
 ---
 ### Basic
 ```python

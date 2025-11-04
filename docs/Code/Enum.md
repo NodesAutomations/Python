@@ -1,5 +1,6 @@
 ---
 title: Enum
+parent: Code
 ---
 from enum import Enum
 ### Sample code

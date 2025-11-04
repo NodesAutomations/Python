@@ -1,5 +1,6 @@
 ---
 title: Type Hinting
+parent: Code
 ---
 ### Reference
 - https://www.youtube.com/watch?v=QORvB-_mbZ0

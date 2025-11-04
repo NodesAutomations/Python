@@ -1,5 +1,6 @@
 ---
 title: Variables
+parent: Code
 ---
 ### Basic Variable types syntax
 - python automatically detect our variable type depending on value assigned

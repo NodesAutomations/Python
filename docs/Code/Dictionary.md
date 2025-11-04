@@ -1,5 +1,6 @@
 ---
 title: Dictionary
+parent: Code
 ---
 
 ### Basic 

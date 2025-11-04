@@ -1,5 +1,6 @@
 ---
 title: Loops
+parent: Code
 ---
 
 ### For Loop

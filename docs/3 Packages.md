@@ -1,5 +1,6 @@
 ---
 title: Packages
+nav_order: 3
 ---
 
 ### Explore python packages

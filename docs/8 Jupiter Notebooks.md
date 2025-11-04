@@ -1,5 +1,6 @@
 ---
 title: Jupyter Notebooks
+nav_order: 8
 ---
 
 ### Instruction

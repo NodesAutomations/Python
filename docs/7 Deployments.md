@@ -1,5 +1,6 @@
 ---
 title: Deployments
+nav_order: 7
 ---
 
 ### Create Executable file

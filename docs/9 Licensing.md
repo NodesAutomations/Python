@@ -1,5 +1,6 @@
 ---
 title: Licensing
+nav_order: 9
 ---
 
 ### References

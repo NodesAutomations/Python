@@ -1,5 +1,6 @@
 ---
 title: Type Check
+nav_order: 6
 ---
 
 ### What is it?

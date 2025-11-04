@@ -1,3 +1,8 @@
+---
+title: Installation
+nav_order: 3
+---
+
 ### Python Installation
 - Install latest version of python from python.org
 - Install python with installer, make sure to check "Add Python x.x.x to PATH" 

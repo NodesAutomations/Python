@@ -1,3 +1,8 @@
+---
+title: Layout
+parent: Streamlit
+---
+
 ### Tabs
 ```python
 tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])

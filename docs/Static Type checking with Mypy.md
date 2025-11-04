@@ -1,3 +1,8 @@
+---
+title: Type Check
+nav_order: 6
+---
+
 ### What is it?
 - python is dynamic typed language so we can't always specify our variable time at compile time. python decide variable type at runtime.
 - but newer version of python has feature call `type hints`

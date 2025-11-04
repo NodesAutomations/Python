@@ -1,3 +1,8 @@
+---
+title: Create Package
+nav_order: 8
+---
+
 ### Create Executable file
 - install pyinstaller using `pip install pyinstaller`
 - run command `pyinstaller "script.py"` to create executable file

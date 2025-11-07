@@ -9,14 +9,15 @@ edit_uri: edit/main/docs/
 
 # Navigation Tree
 nav:
-  - Home: index.md
-  - Introduction: Introduction.md
-  - Installation: Installation.md
-  - Virtual Environments: Virtual Environments.md
-  - Type Check: Type Check.md
-  - Deployments: Deployments.md
-  - Jupyter Notebooks: Jupiter Notebooks.md
-  - Licensing: Licensing.md
+  - Home:
+    - index.md
+    - Introduction: Introduction.md
+    - Installation: Installation.md
+    - Virtual Environments: Virtual Environments.md
+    - Type Check: Type Check.md
+    - Deployments: Deployments.md
+    - Jupyter Notebooks: Jupiter Notebooks.md
+    - Licensing: Licensing.md
   - Packages: 
     - Packages/index.md
     - CustomTkinter: Packages/CustomTkinter.md

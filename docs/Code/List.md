@@ -1,7 +1,3 @@
----
-title: List
-parent: Code
----
 ### Simple List
 ```python
 a=["way of kings","words or radiant","Oathbringer","Rhythm of War"]

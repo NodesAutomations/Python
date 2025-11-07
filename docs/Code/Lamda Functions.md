@@ -1,8 +1,3 @@
----
-title: Lamda Functions
-parent: Code
----
-
 ### Overview
 - Lamda function is a small anonymous functions without name
 

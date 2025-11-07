@@ -1,7 +1,3 @@
----
-title: ErrorHandling
-parent: Code
----
 ### Simple Error handling
 - finally is optional
 - finally block is always executed

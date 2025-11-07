@@ -1,8 +1,3 @@
----
-title: Workflow
-parent: Streamlit
----
-
 ### Stop further execution 
 ```python
 name = st.text_input("Name")

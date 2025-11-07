@@ -1,7 +1,3 @@
----
-title: Class
-parent: Code
----
 ### Basic
 ```python
 class Math:

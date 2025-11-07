@@ -1,8 +1,3 @@
----
-title: Import
-parent: Code
----
-
 ### Import Entire module
 - Importing in python is process of loading code from a python module into the current script
 - This allows you to use the functions and variables defined in the module in your current script also any additional modules that the imported module might depend upon

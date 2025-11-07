@@ -1,8 +1,3 @@
----
-title: pyRevit
-parent: Packages
----
-
 https://github.com/NodesAutomations/Python/issues/64
 
 Dynamo/Python/RevitAPI - Create Levels + Floor Plans + Sheets - Code

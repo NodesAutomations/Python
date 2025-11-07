@@ -1,8 +1,3 @@
----
-title: Functions
-parent: Code
----
-
 ### Function without return
 ```python
 def PrintNumber(i):

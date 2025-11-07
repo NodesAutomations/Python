@@ -1,8 +1,3 @@
----
-title: File IO
-parent: Code
----
-
 ### Read Text file
 ```python
 file=open("input.txt","r")

@@ -1,8 +1,3 @@
----
-title: Licensing
-nav_order: 9
----
-
 ### References
 - https://www.reddit.com/r/learnpython/comments/wegp2m/got_my_python_software_finished_how_do_i_secure_it/
 

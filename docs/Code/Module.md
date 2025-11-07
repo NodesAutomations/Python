@@ -1,7 +1,3 @@
----
-title: Module
-parent: Code
----
 ### Check for main module
 ```python
 class MyClass:

@@ -1,8 +1,3 @@
----
-title: Set
-parent: Code
----
-
 ### Basic
 - Collection of non repetitive element
 - order doesn't matter

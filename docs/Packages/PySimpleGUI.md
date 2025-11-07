@@ -1,8 +1,3 @@
----
-title: PySimpleGUI
-parent: Packages
----
-
 ### Sample code
 ```python
 import PySimpleGUI as gui # pip install pysimplegui

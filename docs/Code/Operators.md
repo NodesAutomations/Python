@@ -1,8 +1,3 @@
----
-title: Operators
-parent: Code
----
-
 ### Basic operators
 - Arithmetic operators : `+`,`-`,`*`,`/`
 - Assignment operators : `=`,`+=`,`-=`

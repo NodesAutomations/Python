@@ -1,8 +1,3 @@
----
-title: Loops
-parent: Code
----
-
 ### For Loop
 ```python
 numbers=[1,2,3]

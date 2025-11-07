@@ -1,8 +1,3 @@
----
-title: Pandas
-parent: Packages
----
-
 # Read Data
 - all data on pandas are basically of two types
 - dataframe (2d data/table), series (1d data/list)

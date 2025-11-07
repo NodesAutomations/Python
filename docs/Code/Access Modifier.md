@@ -1,8 +1,3 @@
----
-title: Access Modifier
-parent: Code
----
-
 ### Public 
 - by default all variables, method and class are considered as public access for python
 

@@ -1,7 +1,3 @@
----
-title: Conditional Statements
-parent: Code
----
 ### If else
 ```python
 a=0

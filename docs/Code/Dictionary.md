@@ -1,8 +1,3 @@
----
-title: Dictionary
-parent: Code
----
-
 ### Basic 
 ```python
 # Create Dictionary

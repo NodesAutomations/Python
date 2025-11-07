@@ -1,8 +1,3 @@
----
-title: Doxctpl
-parent: Packages
----
-
 ### Sample Code to generate word report by populating template
 - Template file: `Hello, my name is {{ name }}.`
 ```python

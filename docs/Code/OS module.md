@@ -1,8 +1,3 @@
----
-title: os module
-parent: Code
----
-
 ### Get Current working directory
 ```python
 import os

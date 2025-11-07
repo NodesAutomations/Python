@@ -10,6 +10,53 @@ edit_uri: edit/main/docs/
 # Navigation Tree
 nav:
   - Home: index.md
+  - Introduction: Introduction.md
+  - Installation: Installation.md
+  - Virtual Environments: Virtual Environments.md
+  - Type Check: Type Check.md
+  - Deployments: Deployments.md
+  - Jupyter Notebooks: Jupyter Notebooks.md
+  - Licensing: Licensing.md
+  - Packages: 
+    - Packages/index.md
+    - CustomTkinter: Packages/CustomTkinter.md
+    - Doxctpl: Packages/Doxctpl.md
+    - Pandas: Packages/Pandas.md
+    - Pathlib: Packages/Pathlib.md
+    - PyQt: Packages/PyQT.md
+    - pyRevit: Packages/pyRevit.md
+    - PySimpleGUI: Packages/PySimpleGUI.md
+    - xlwings: Packages/xlwings.md
+  - Code:
+    - Code/index.md
+    - Access Modifiers: Code/Access Modifier.md
+    - Classes: Code/Class.md
+    - Conditional Statements: Code/Conditional Statements.md
+    - CSV Files: Code/CSV file.md
+    - Data Validation: Code/Data Validation.md
+    - Decorators: Code/Decorators.md
+    - Dictionaries: Code/Dictionary.md
+    - Enums: Code/Enum.md
+    - Error Handling: Code/Error Handling.md
+    - File I/O: Code/File IO.md
+    - Functions: Code/Functions.md
+    - Get Inputs: Code/Get Inputs.md
+    - Imports: Code/Import.md
+    - Lambda Functions: Code/Lamda Functions.md
+    - Lists: Code/List.md
+    - Loops: Code/Loops.md
+    - Map: Code/Map.md
+    - Modules: Code/Module.md
+    - Operators: Code/Operators.md
+    - OS Module: Code/OS module.md
+    - Sets: Code/Set.md
+    - Strings: Code/String.md
+    - Type Hinting: Code/Type Hinting.md
+    - Variables: Code/Variables.md
+  - Streamlit:
+    - Code/index.md
+    - Layout: Streamlit/Streamlit Layout.md
+    - Workflow: Streamlit/Streamlit workflow.md
 
 # Theme
 theme:

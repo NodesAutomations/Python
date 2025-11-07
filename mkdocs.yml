@@ -54,7 +54,7 @@ nav:
     - Type Hinting: Code/Type Hinting.md
     - Variables: Code/Variables.md
   - Streamlit:
-    - Code/index.md
+    - Streamlit/index.md
     - Layout: Streamlit/Streamlit Layout.md
     - Workflow: Streamlit/Streamlit workflow.md
 

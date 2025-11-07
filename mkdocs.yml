@@ -17,7 +17,8 @@ nav:
   - Deployments: Deployments.md
   - Jupyter Notebooks: Jupiter Notebooks.md
   - Licensing: Licensing.md
-  - Packages: Packages/index.md
+  - Packages: 
+    - Packages/index.md
     - CustomTkinter: Packages/CustomTkinter.md
     - Doxctpl: Packages/Doxctpl.md
     - Pandas: Packages/Pandas.md
@@ -26,7 +27,8 @@ nav:
     - pyRevit: Packages/pyRevit.md
     - PySimpleGUI: Packages/PySimpleGUI.md
     - xlwings: Packages/xlwings.md
-  - Code: Code/index.md
+  - Code:
+    - Code/index.md
     - Access Modifiers: Code/Access Modifier.md
     - Classes: Code/Class.md
     - Conditional Statements: Code/Conditional Statements.md
@@ -51,7 +53,8 @@ nav:
     - Strings: Code/String.md
     - Type Hinting: Code/Type Hinting.md
     - Variables: Code/Variables.md
-  - Streamlit: Code/index.md
+  - Streamlit:
+    - Code/index.md
     - Layout: Streamlit/Streamlit Layout.md
     - Workflow: Streamlit/Streamlit workflow.md
 

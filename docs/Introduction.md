@@ -1,8 +1,3 @@
----
-title: Introduction
-nav_order: 1
----
-
 # Introduction
 
 - python is interpreter language which is different from c# complier language

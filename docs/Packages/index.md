@@ -1,9 +1,3 @@
----
-title: Packages
-nav_order: 3
-has_children: true
----
-
 ### Explore python packages
 - https://anaconda.org/anaconda/repo
 - https://anaconda.cloud/package-categories

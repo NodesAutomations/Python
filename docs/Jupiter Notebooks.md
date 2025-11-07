@@ -1,8 +1,3 @@
----
-title: Jupyter Notebooks
-nav_order: 8
----
-
 ### Instruction
 - Install visual studio code
 - Install anaconda

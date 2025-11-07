@@ -1,8 +1,3 @@
----
-title: Deployments
-nav_order: 7
----
-
 ### Create Executable file
 - install pyinstaller using `pip install pyinstaller`
 - run command `pyinstaller "script.py"` to create executable file

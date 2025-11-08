@@ -22,6 +22,8 @@ nav:
     - Packages/index.md
     - CustomTkinter: Packages/CustomTkinter.md
     - Doxctpl: Packages/Doxctpl.md
+    - Matplotlib: Packages/Matplotlib.md
+    - OpenPyXL: Packages/OpenPyXL.md
     - Pandas: Packages/Pandas.md
     - Pathlib: Packages/Pathlib.md
     - PyQt: Packages/PyQT.md

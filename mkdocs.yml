@@ -29,6 +29,7 @@ nav:
     - PyQt: Packages/PyQT.md
     - pyRevit: Packages/pyRevit.md
     - PySimpleGUI: Packages/PySimpleGUI.md
+    - Tkinter: Packages/Tkinter.md
     - xlwings: Packages/xlwings.md
   - Code:
     - Code/index.md

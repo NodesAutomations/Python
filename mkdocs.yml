@@ -125,6 +125,7 @@ copyright: Copyright &copy; 2025 Nodes Automations
 
 # Footer social links
 extra:
+  generator: false # remove "Generated with MkDocs" footer
   social:
     - icon: fontawesome/solid/globe
       link: www.nodesautomations.com
@@ -134,5 +135,3 @@ extra:
       link: https://www.linkedin.com/in/vivekpatel-nodesautomations/
     - icon: fontawesome/brands/github
       link: https://github.com/orgs/NodesAutomations
-
-

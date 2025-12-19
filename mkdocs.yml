@@ -7,80 +7,24 @@ repo_name: Python
 repo_url: https://github.com/NodesAutomations/Python
 edit_uri: edit/main/docs/
 
-# Navigation Tree
-nav:
-  - Home:
-    - index.md
-    - Introduction: Introduction.md
-    - Installation: Installation.md
-    - Virtual Environments: Virtual Environments.md
-    - Type Check: Type Check.md
-    - Deployments: Deployments.md
-    - Jupyter Notebooks: Jupiter Notebooks.md
-    - Licensing: Licensing.md
-  - Packages: 
-    - Packages/index.md
-    - CustomTkinter: Packages/CustomTkinter.md
-    - Doxctpl: Packages/Doxctpl.md
-    - Matplotlib: Packages/Matplotlib.md
-    - OpenPyXL: Packages/OpenPyXL.md
-    - Pandas: Packages/Pandas.md
-    - Pathlib: Packages/Pathlib.md
-    - PyQt: Packages/PyQT.md
-    - pyRevit: Packages/pyRevit.md
-    - PySimpleGUI: Packages/PySimpleGUI.md
-    - Tkinter: Packages/Tkinter.md
-    - xlwings: Packages/xlwings.md
-  - Code:
-    - Code/index.md
-    - Access Modifiers: Code/Access Modifier.md
-    - Classes: Code/Class.md
-    - Conditional Statements: Code/Conditional Statements.md
-    - CSV Files: Code/CSV file.md
-    - Data Validation: Code/Data Validation.md
-    - Decorators: Code/Decorators.md
-    - Dictionaries: Code/Dictionary.md
-    - Enums: Code/Enum.md
-    - Error Handling: Code/Error Handling.md
-    - File I/O: Code/File IO.md
-    - Functions: Code/Functions.md
-    - Get Inputs: Code/Get Inputs.md
-    - Imports: Code/Import.md
-    - Lambda Functions: Code/Lamda Functions.md
-    - Lists: Code/List.md
-    - Loops: Code/Loops.md
-    - Map: Code/Map.md
-    - Modules: Code/Module.md
-    - Operators: Code/Operators.md
-    - OS Module: Code/OS module.md
-    - Sets: Code/Set.md
-    - Strings: Code/String.md
-    - Type Hinting: Code/Type Hinting.md
-    - Variables: Code/Variables.md
-  - Streamlit:
-    - Streamlit/index.md
-    - Layout: Streamlit/Streamlit Layout.md
-    - Workflow: Streamlit/Streamlit workflow.md
-
 # Theme
 theme:
   name: material
   logo: assets/favicon.png
   favicon: assets/favicon.png
   palette:
-    # Palette toggle for dark mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
     - scheme: slate
       primary: black
       accent: indigo
       toggle:
           icon: material/brightness-4
           name: Switch to light mode
-    - scheme: default
-      primary: black
-      accent: indigo
-      toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
   features:
     - content.action.edit # Allows "Edit on GitHub" links
     - content.action.view # Allows "View on GitHub" links
@@ -92,6 +36,10 @@ theme:
     repo: fontawesome/brands/git-alt 
     edit: material/pencil 
     view: material/eye
+
+plugins:
+  - search
+  - awesome-nav
 
 # Extensions
 markdown_extensions:
@@ -113,16 +61,6 @@ markdown_extensions:
   - pymdownx.tasklist: # List extensions
       custom_checkbox: true
 
-# Extra JavaScript for KaTeX
-extra_javascript:
-  - javascripts/katex.js
-  - https://unpkg.com/katex@0/dist/katex.min.js
-  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
-
-# Extra CSS for KaTeX
-extra_css:
-  - https://unpkg.com/katex@0/dist/katex.min.css
-
 # Copyright
 copyright: Copyright &copy; 2025 Nodes Automations
 
@@ -138,3 +76,5 @@ extra:
       link: https://www.linkedin.com/in/vivekpatel-nodesautomations/
     - icon: fontawesome/brands/github
       link: https://github.com/orgs/NodesAutomations
+
+

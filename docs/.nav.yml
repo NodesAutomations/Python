@@ -2,6 +2,5 @@ title: Home
 nav:
   - Home: index.md
   - Code: Code
-  - Concepts: Concepts
   - Packages: Packages
   - Streamlit: Streamlit
